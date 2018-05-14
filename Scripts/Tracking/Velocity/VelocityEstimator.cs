@@ -4,26 +4,23 @@
     using VRTK.Core.Tracking.Velocity;
 
     /// <summary>
-    /// The VelocityEstimator retrieves the velocity and angular velocity from the specific named OVRCameraRig tracked anchor (CenterEyeAnchor, LeftHandAnchor, RightHandAnchor).
+    /// Retrieves the velocity and angular velocity from the specific named OVRCameraRig tracked anchor (CenterEyeAnchor, LeftHandAnchor, RightHandAnchor).
     /// </summary>
     public class VelocityEstimator : VelocityTracker
     {
+        /// <summary>
+        /// The <see cref="GameObject"/> anchor from the OVRCameraRig to track velocity for.
+        /// </summary>
         [Tooltip("The GameObject anchor from the OVRCameraRig to track velocity for.")]
         public GameObject trackedGameObject;
 
-        /// <summary>
-        /// The IsActive method returns the state of whether the component is active.
-        /// </summary>
-        /// <returns>Returns `true` if the component is considered active.</returns>
+        /// <inheritdoc />
         public override bool IsActive()
         {
             return (trackedGameObject != null && trackedGameObject.activeInHierarchy && isActiveAndEnabled);
         }
 
-        /// <summary>
-        /// The GetVelocity method returns the velocity of the tracked object.
-        /// </summary>
-        /// <returns>A Vector3 of the current tracked velocity.</returns>
+        /// <inheritdoc />
         public override Vector3 GetVelocity()
         {
             switch (trackedGameObject.name)
@@ -38,10 +35,7 @@
             return Vector3.zero;
         }
 
-        /// <summary>
-        /// The GetAngularVelocityMethod returns the angular velocity of the tracked object.
-        /// </summary>
-        /// <returns>A Vector3 of the current tracked angular velocity.</returns>
+        /// <inheritdoc />
         public override Vector3 GetAngularVelocity()
         {
             switch (trackedGameObject.name)

@@ -4,17 +4,23 @@
     using VRTK.Core.Action;
 
     /// <summary>
-    /// The OculusButtonAction listens for the specified button state and emits the appropriate action.
+    /// Listens for the specified button state and emits the appropriate action.
     /// </summary>
     public class OculusButtonAction : BooleanAction, IOculusInputControllable
     {
+        /// <summary>
+        /// The controller to listen for the state change on.
+        /// </summary>
         [Tooltip("The controller to listen for the state change on.")]
         public OVRInput.Controller controller = OVRInput.Controller.Active;
+        /// <summary>
+        /// The button to listen for state changes on.
+        /// </summary>
         [Tooltip("The button to listen for state changes on.")]
         public OVRInput.Button button;
 
         /// <summary>
-        /// Controller is the implementation of the interface to access the inherited `controller` field.
+        /// The implementation of the interface to access the inherited <see cref="Controller"/> field.
         /// </summary>
         public OVRInput.Controller Controller
         {
