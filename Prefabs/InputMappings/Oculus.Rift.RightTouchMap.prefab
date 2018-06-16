@@ -37,7 +37,7 @@ GameObject:
   - component: {fileID: 114331647316959178}
   - component: {fileID: 114491034666237436}
   m_Layer: 0
-  m_Name: PrimaryHandTrigger
+  m_Name: SecondaryHandTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73,7 +73,7 @@ GameObject:
   - component: {fileID: 114927100388940030}
   - component: {fileID: 114292176769005110}
   m_Layer: 0
-  m_Name: PrimaryIndexTrigger
+  m_Name: SecondaryIndexTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -91,7 +91,7 @@ GameObject:
   - component: {fileID: 114801384479876790}
   - component: {fileID: 114122500885717852}
   m_Layer: 0
-  m_Name: PrimaryThumbstick
+  m_Name: SecondaryThumbstick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 4608729619114730}
   - component: {fileID: 114044495754234096}
   m_Layer: 0
-  m_Name: PrimaryThumbRest
+  m_Name: SecondaryThumbRest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -238,21 +238,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dd00bed8447ef34485f923878aaa8d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultValue: 0
   Activated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Core.Action.BooleanAction+BooleanActionUnityEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  Changed:
+    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  ValueChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Core.Action.BooleanAction+BooleanActionUnityEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   Deactivated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Core.Action.BooleanAction+BooleanActionUnityEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   controller: 2
   touch: 1048576
 --- !u!114 &114057569513564136
@@ -266,21 +267,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dd00bed8447ef34485f923878aaa8d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultValue: 0
   Activated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Core.Action.BooleanAction+BooleanActionUnityEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  Changed:
+    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  ValueChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Core.Action.BooleanAction+BooleanActionUnityEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   Deactivated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Core.Action.BooleanAction+BooleanActionUnityEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   controller: 2
   touch: 2
 --- !u!114 &114093066052750338
@@ -294,21 +296,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fee263656d86f44698687bbdda8b545, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultValue: 0
   Activated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Core.Action.BooleanAction+BooleanActionUnityEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  Changed:
+    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  ValueChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Core.Action.BooleanAction+BooleanActionUnityEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   Deactivated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Core.Action.BooleanAction+BooleanActionUnityEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   controller: 2
   button: 2
 --- !u!114 &114122500885717852
@@ -322,21 +325,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46ef6620a8e2617469ec3bad64ae9924, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultValue: {x: 0, y: 0}
   Activated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Core.Action.Vector2Action+Vector2ActionUnityEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  Changed:
+    m_TypeName: VRTK.Core.Action.Vector2Action+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  ValueChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Core.Action.Vector2Action+Vector2ActionUnityEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_TypeName: VRTK.Core.Action.Vector2Action+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   Deactivated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Core.Action.Vector2Action+Vector2ActionUnityEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_TypeName: VRTK.Core.Action.Vector2Action+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  equalityTolerance: 1e-45
   controller: 2
   axis: 2
 --- !u!114 &114280666501185498
@@ -350,21 +355,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dd00bed8447ef34485f923878aaa8d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultValue: 0
   Activated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Core.Action.BooleanAction+BooleanActionUnityEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  Changed:
+    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  ValueChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Core.Action.BooleanAction+BooleanActionUnityEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   Deactivated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Core.Action.BooleanAction+BooleanActionUnityEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   controller: 2
   touch: 8388608
 --- !u!114 &114292176769005110
@@ -378,21 +384,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b60c2c9bdccdb314f8cc0ef13cbd2dee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultValue: 0
   Activated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Core.Action.FloatAction+FloatActionUnityEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  Changed:
+    m_TypeName: VRTK.Core.Action.FloatAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  ValueChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Core.Action.FloatAction+FloatActionUnityEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_TypeName: VRTK.Core.Action.FloatAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   Deactivated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Core.Action.FloatAction+FloatActionUnityEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_TypeName: VRTK.Core.Action.FloatAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  equalityTolerance: 1e-45
   controller: 2
   axis: 2
 --- !u!114 &114331647316959178
@@ -406,21 +414,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fee263656d86f44698687bbdda8b545, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultValue: 0
   Activated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Core.Action.BooleanAction+BooleanActionUnityEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  Changed:
+    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  ValueChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Core.Action.BooleanAction+BooleanActionUnityEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   Deactivated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Core.Action.BooleanAction+BooleanActionUnityEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   controller: 2
   button: 4194304
 --- !u!114 &114491034666237436
@@ -434,21 +443,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b60c2c9bdccdb314f8cc0ef13cbd2dee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultValue: 0
   Activated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Core.Action.FloatAction+FloatActionUnityEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  Changed:
+    m_TypeName: VRTK.Core.Action.FloatAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  ValueChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Core.Action.FloatAction+FloatActionUnityEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_TypeName: VRTK.Core.Action.FloatAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   Deactivated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Core.Action.FloatAction+FloatActionUnityEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_TypeName: VRTK.Core.Action.FloatAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  equalityTolerance: 1e-45
   controller: 2
   axis: 8
 --- !u!114 &114516270273887522
@@ -462,21 +473,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fee263656d86f44698687bbdda8b545, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultValue: 0
   Activated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Core.Action.BooleanAction+BooleanActionUnityEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  Changed:
+    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  ValueChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Core.Action.BooleanAction+BooleanActionUnityEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   Deactivated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Core.Action.BooleanAction+BooleanActionUnityEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   controller: 2
   button: 1
 --- !u!114 &114571485936625676
@@ -490,21 +502,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dd00bed8447ef34485f923878aaa8d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultValue: 0
   Activated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Core.Action.BooleanAction+BooleanActionUnityEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  Changed:
+    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  ValueChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Core.Action.BooleanAction+BooleanActionUnityEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   Deactivated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Core.Action.BooleanAction+BooleanActionUnityEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   controller: 2
   touch: 2097152
 --- !u!114 &114598607088469046
@@ -518,21 +531,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 962dae3681aff5241902560503e9ce38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultValue: 0
   Activated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Core.Action.BooleanAction+BooleanActionUnityEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  Changed:
+    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  ValueChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Core.Action.BooleanAction+BooleanActionUnityEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   Deactivated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Core.Action.BooleanAction+BooleanActionUnityEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   controller: 2
   nearTouch: 4
 --- !u!114 &114689061850769628
@@ -546,21 +560,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dd00bed8447ef34485f923878aaa8d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultValue: 0
   Activated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Core.Action.BooleanAction+BooleanActionUnityEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  Changed:
+    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  ValueChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Core.Action.BooleanAction+BooleanActionUnityEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   Deactivated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Core.Action.BooleanAction+BooleanActionUnityEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   controller: 2
   touch: 1
 --- !u!114 &114801384479876790
@@ -574,23 +589,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fee263656d86f44698687bbdda8b545, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultValue: 0
   Activated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Core.Action.BooleanAction+BooleanActionUnityEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  Changed:
+    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  ValueChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Core.Action.BooleanAction+BooleanActionUnityEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   Deactivated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Core.Action.BooleanAction+BooleanActionUnityEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   controller: 2
-  button: 32768
+  button: 8388608
 --- !u!114 &114927100388940030
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -602,20 +618,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fee263656d86f44698687bbdda8b545, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultValue: 0
   Activated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Core.Action.BooleanAction+BooleanActionUnityEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  Changed:
+    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  ValueChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Core.Action.BooleanAction+BooleanActionUnityEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   Deactivated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Core.Action.BooleanAction+BooleanActionUnityEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   controller: 2
   button: 2097152

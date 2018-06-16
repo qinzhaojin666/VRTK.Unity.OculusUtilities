@@ -30,22 +30,7 @@
 
         protected virtual void Update()
         {
-            Value = OVRInput.Get(nearTouch, controller);
-            if (OVRInput.GetDown(nearTouch, controller))
-            {
-                OnActivated(true);
-            }
-
-            if (HasChanged())
-            {
-                OnChanged(Value);
-            }
-
-            if (OVRInput.GetUp(nearTouch, controller))
-            {
-                OnDeactivated(false);
-            }
-            previousValue = Value;
+            Receive(OVRInput.Get(nearTouch, controller));
         }
     }
 }

@@ -30,10 +30,7 @@
 
         protected virtual void Update()
         {
-            Value = OVRInput.Get(axis, controller);
-            EmitEvents();
-            State = IsActive();
-            previousValue = Value;
+            Receive(OVRInput.Get(axis, controller));
         }
     }
 }
