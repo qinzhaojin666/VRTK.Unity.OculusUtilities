@@ -30,22 +30,7 @@
 
         protected virtual void Update()
         {
-            Value = OVRInput.Get(touch, controller);
-            if (OVRInput.GetDown(touch, controller))
-            {
-                OnActivated(true);
-            }
-
-            if (HasChanged())
-            {
-                OnChanged(Value);
-            }
-
-            if (OVRInput.GetUp(touch, controller))
-            {
-                OnDeactivated(false);
-            }
-            previousValue = Value;
+            Receive(OVRInput.Get(touch, controller));
         }
     }
 }
