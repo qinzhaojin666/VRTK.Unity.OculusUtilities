@@ -21,7 +21,7 @@
         }
 
         /// <inheritdoc />
-        public override Vector3 GetVelocity()
+        protected override Vector3 DoGetVelocity()
         {
             switch (trackedGameObject.name)
             {
@@ -31,12 +31,13 @@
                     return OVRInput.GetLocalControllerVelocity(OVRInput.Controller.LTouch);
                 case "RightHandAnchor":
                     return OVRInput.GetLocalControllerVelocity(OVRInput.Controller.RTouch);
+                default:
+                    return Vector3.zero;
             }
-            return Vector3.zero;
         }
 
         /// <inheritdoc />
-        public override Vector3 GetAngularVelocity()
+        protected override Vector3 DoGetAngularVelocity()
         {
             switch (trackedGameObject.name)
             {
@@ -46,8 +47,9 @@
                     return OVRInput.GetLocalControllerAngularVelocity(OVRInput.Controller.LTouch);
                 case "RightHandAnchor":
                     return OVRInput.GetLocalControllerAngularVelocity(OVRInput.Controller.RTouch);
+                default:
+                    return Vector3.zero;
             }
-            return Vector3.zero;
         }
     }
 }
