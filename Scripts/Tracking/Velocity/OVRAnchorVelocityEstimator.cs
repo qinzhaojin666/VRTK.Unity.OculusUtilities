@@ -6,7 +6,7 @@
     /// <summary>
     /// Retrieves the velocity and angular velocity from the specific named OVRCameraRig tracked anchor (CenterEyeAnchor, LeftHandAnchor, RightHandAnchor).
     /// </summary>
-    public class VelocityEstimator : VelocityTracker
+    public class OVRAnchorVelocityEstimator : VelocityTracker
     {
         /// <summary>
         /// The <see cref="GameObject"/> anchor from the OVRCameraRig to track velocity for.
