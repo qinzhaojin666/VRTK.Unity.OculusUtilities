@@ -11,6 +11,22 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 1151236736856448}
   m_IsPrefabParent: 1
+--- !u!1 &1043718428194280
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4531425323487554}
+  - component: {fileID: 114191985112284436}
+  m_Layer: 0
+  m_Name: Press
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1151236736856448
 GameObject:
   m_ObjectHideFlags: 0
@@ -34,10 +50,40 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4605389800181518}
-  - component: {fileID: 114331647316959178}
-  - component: {fileID: 114491034666237436}
   m_Layer: 0
   m_Name: PrimaryHandTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1270785496266666
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4956346909988160}
+  - component: {fileID: 114185590570802806}
+  m_Layer: 0
+  m_Name: Touch
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1314764826731558
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4917124180693860}
+  - component: {fileID: 114307966058828918}
+  m_Layer: 0
+  m_Name: Press
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51,10 +97,24 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4176454114672686}
-  - component: {fileID: 114689061850769628}
-  - component: {fileID: 114516270273887522}
   m_Layer: 0
   m_Name: A
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1340846825052308
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4258406808555912}
+  - component: {fileID: 114687368347612774}
+  m_Layer: 0
+  m_Name: Axis
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -68,10 +128,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4964622649590826}
-  - component: {fileID: 114598607088469046}
-  - component: {fileID: 114571485936625676}
-  - component: {fileID: 114927100388940030}
-  - component: {fileID: 114292176769005110}
   m_Layer: 0
   m_Name: PrimaryIndexTrigger
   m_TagString: Untagged
@@ -87,11 +143,24 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4756558406113194}
-  - component: {fileID: 114280666501185498}
-  - component: {fileID: 114801384479876790}
-  - component: {fileID: 114122500885717852}
   m_Layer: 0
   m_Name: PrimaryThumbstick
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1394470683774522
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4298996839215400}
+  - component: {fileID: 114822155581713700}
+  m_Layer: 0
+  m_Name: Touch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -105,10 +174,120 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4204161595642294}
-  - component: {fileID: 114057569513564136}
-  - component: {fileID: 114093066052750338}
   m_Layer: 0
   m_Name: B
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1654192722633386
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4774720153673238}
+  - component: {fileID: 114164433767385436}
+  m_Layer: 0
+  m_Name: Touch
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1691911872134710
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4596087221330472}
+  - component: {fileID: 114869801864018996}
+  m_Layer: 0
+  m_Name: NearTouch
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1695805962918944
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4129959746776206}
+  - component: {fileID: 114817494448505398}
+  m_Layer: 0
+  m_Name: Axis
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1730901827301238
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4698318877936420}
+  - component: {fileID: 114872102042557832}
+  m_Layer: 0
+  m_Name: Touch
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1743726516307488
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4091834015714404}
+  - component: {fileID: 114848182788679074}
+  m_Layer: 0
+  m_Name: Press
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1828931536087168
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4536810224825852}
+  - component: {fileID: 114212641962234950}
+  m_Layer: 0
+  m_Name: Touch
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1837769879040148
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4389906146469092}
+  - component: {fileID: 114868028381971522}
+  m_Layer: 0
+  m_Name: Axis
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -122,7 +301,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4608729619114730}
-  - component: {fileID: 114044495754234096}
   m_Layer: 0
   m_Name: PrimaryThumbRest
   m_TagString: Untagged
@@ -130,6 +308,64 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1941275255949668
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4691525289971034}
+  - component: {fileID: 114503885611154656}
+  m_Layer: 0
+  m_Name: Press
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1994985812559416
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4418638093326844}
+  - component: {fileID: 114936222526878564}
+  m_Layer: 0
+  m_Name: Press
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4091834015714404
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1743726516307488}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4756558406113194}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4129959746776206
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1695805962918944}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4964622649590826}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4176454114672686
 Transform:
   m_ObjectHideFlags: 1
@@ -139,7 +375,9 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 4956346909988160}
+  - {fileID: 4418638093326844}
   m_Father: {fileID: 4256826214228076}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -152,7 +390,9 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 4698318877936420}
+  - {fileID: 4531425323487554}
   m_Father: {fileID: 4256826214228076}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -175,6 +415,97 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4258406808555912
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1340846825052308}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4756558406113194}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4298996839215400
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1394470683774522}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4756558406113194}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4389906146469092
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1837769879040148}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4605389800181518}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4418638093326844
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1994985812559416}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4176454114672686}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4531425323487554
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1043718428194280}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4204161595642294}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4536810224825852
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1828931536087168}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4608729619114730}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4596087221330472
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1691911872134710}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4964622649590826}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4605389800181518
 Transform:
   m_ObjectHideFlags: 1
@@ -184,7 +515,9 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 4917124180693860}
+  - {fileID: 4389906146469092}
   m_Father: {fileID: 4256826214228076}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -197,9 +530,36 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 4536810224825852}
   m_Father: {fileID: 4256826214228076}
   m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4691525289971034
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1941275255949668}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4964622649590826}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4698318877936420
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1730901827301238}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4204161595642294}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4756558406113194
 Transform:
@@ -210,9 +570,51 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 4298996839215400}
+  - {fileID: 4091834015714404}
+  - {fileID: 4258406808555912}
   m_Father: {fileID: 4256826214228076}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4774720153673238
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1654192722633386}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4964622649590826}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4917124180693860
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1314764826731558}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4605389800181518}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4956346909988160
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1270785496266666}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4176454114672686}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4964622649590826
 Transform:
@@ -223,16 +625,20 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 4596087221330472}
+  - {fileID: 4774720153673238}
+  - {fileID: 4691525289971034}
+  - {fileID: 4129959746776206}
   m_Father: {fileID: 4256826214228076}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114044495754234096
+--- !u!114 &114164433767385436
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1898817981299372}
+  m_GameObject: {fileID: 1654192722633386}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8dd00bed8447ef34485f923878aaa8d8, type: 3}
@@ -254,14 +660,15 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  sources: []
   controller: 2
-  touch: 4096
---- !u!114 &114057569513564136
+  touch: 8192
+--- !u!114 &114185590570802806
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1450029784670376}
+  m_GameObject: {fileID: 1270785496266666}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8dd00bed8447ef34485f923878aaa8d8, type: 3}
@@ -283,14 +690,15 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  sources: []
   controller: 2
-  touch: 2
---- !u!114 &114093066052750338
+  touch: 1
+--- !u!114 &114191985112284436
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1450029784670376}
+  m_GameObject: {fileID: 1043718428194280}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4fee263656d86f44698687bbdda8b545, type: 3}
@@ -312,14 +720,105 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  sources: []
   controller: 2
   button: 2
---- !u!114 &114122500885717852
+--- !u!114 &114212641962234950
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1374465442693108}
+  m_GameObject: {fileID: 1828931536087168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dd00bed8447ef34485f923878aaa8d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultValue: 0
+  Activated:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  ValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  sources: []
+  controller: 2
+  touch: 4096
+--- !u!114 &114307966058828918
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1314764826731558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fee263656d86f44698687bbdda8b545, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultValue: 0
+  Activated:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  ValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  sources: []
+  controller: 2
+  button: 16384
+--- !u!114 &114503885611154656
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1941275255949668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fee263656d86f44698687bbdda8b545, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultValue: 0
+  Activated:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  ValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  sources: []
+  controller: 2
+  button: 8192
+--- !u!114 &114687368347612774
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1340846825052308}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 46ef6620a8e2617469ec3bad64ae9924, type: 3}
@@ -341,15 +840,47 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: VRTK.Core.Action.Vector2Action+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  sources: []
   equalityTolerance: 1e-45
   controller: 2
   axis: 1
---- !u!114 &114280666501185498
+--- !u!114 &114817494448505398
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1374465442693108}
+  m_GameObject: {fileID: 1695805962918944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b60c2c9bdccdb314f8cc0ef13cbd2dee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultValue: 0
+  Activated:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VRTK.Core.Action.FloatAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  ValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VRTK.Core.Action.FloatAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VRTK.Core.Action.FloatAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  sources: []
+  equalityTolerance: 1e-45
+  controller: 2
+  axis: 1
+--- !u!114 &114822155581713700
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1394470683774522}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8dd00bed8447ef34485f923878aaa8d8, type: 3}
@@ -371,44 +902,15 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  sources: []
   controller: 2
   touch: 32768
---- !u!114 &114292176769005110
+--- !u!114 &114848182788679074
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1352516336519380}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b60c2c9bdccdb314f8cc0ef13cbd2dee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultValue: 0
-  Activated:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: VRTK.Core.Action.FloatAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  ValueChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: VRTK.Core.Action.FloatAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  Deactivated:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: VRTK.Core.Action.FloatAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  equalityTolerance: 1e-45
-  controller: 2
-  axis: 1
---- !u!114 &114331647316959178
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1254114854722764}
+  m_GameObject: {fileID: 1743726516307488}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4fee263656d86f44698687bbdda8b545, type: 3}
@@ -430,14 +932,15 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  sources: []
   controller: 2
-  button: 16384
---- !u!114 &114491034666237436
+  button: 32768
+--- !u!114 &114868028381971522
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1254114854722764}
+  m_GameObject: {fileID: 1837769879040148}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b60c2c9bdccdb314f8cc0ef13cbd2dee, type: 3}
@@ -459,73 +962,16 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: VRTK.Core.Action.FloatAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  sources: []
   equalityTolerance: 1e-45
   controller: 2
   axis: 4
---- !u!114 &114516270273887522
+--- !u!114 &114869801864018996
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1323545613612728}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4fee263656d86f44698687bbdda8b545, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultValue: 0
-  Activated:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  ValueChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  Deactivated:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  controller: 2
-  button: 1
---- !u!114 &114571485936625676
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1352516336519380}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8dd00bed8447ef34485f923878aaa8d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultValue: 0
-  Activated:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  ValueChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  Deactivated:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  controller: 2
-  touch: 8192
---- !u!114 &114598607088469046
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1352516336519380}
+  m_GameObject: {fileID: 1691911872134710}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 962dae3681aff5241902560503e9ce38, type: 3}
@@ -547,14 +993,15 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  sources: []
   controller: 2
   nearTouch: 1
---- !u!114 &114689061850769628
+--- !u!114 &114872102042557832
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1323545613612728}
+  m_GameObject: {fileID: 1730901827301238}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8dd00bed8447ef34485f923878aaa8d8, type: 3}
@@ -576,14 +1023,15 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  sources: []
   controller: 2
-  touch: 1
---- !u!114 &114801384479876790
+  touch: 2
+--- !u!114 &114936222526878564
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1374465442693108}
+  m_GameObject: {fileID: 1994985812559416}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4fee263656d86f44698687bbdda8b545, type: 3}
@@ -605,34 +1053,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  sources: []
   controller: 2
-  button: 32768
---- !u!114 &114927100388940030
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1352516336519380}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4fee263656d86f44698687bbdda8b545, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultValue: 0
-  Activated:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  ValueChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  Deactivated:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: VRTK.Core.Action.BooleanAction+UnityEvent, Assembly-CSharp, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  controller: 2
-  button: 8192
+  button: 1
